@@ -1,0 +1,12 @@
+Actually, we rarely use the "math" library in deep learning because the inputs of the functions are real numbers. In deep learning we mostly use matrices and vectors. This is why numpy is more useful.
+
+ The data structures we use in numpy to represent these shapes (vectors, matrices...) are called numpy arrays.
+
+What you need to remember:
+
+np.exp(x) works for any np.array x and applies the exponential function to every coordinate
+the sigmoid function and its gradient
+image2vector is commonly used in deep learning
+np.reshape is widely used. In the future, you'll see that keeping your matrix/vector dimensions straight will go toward eliminating a lot of bugs.
+numpy has efficient built-in functions
+broadcasting is extremely useful
